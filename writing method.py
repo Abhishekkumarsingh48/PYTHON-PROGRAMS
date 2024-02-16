@@ -1,0 +1,7 @@
+f=open("ast.txt",'a')
+print(f)
+f.write("  i am biginer but i will be expert of this")
+f.close()
+g=open("ast.txt","r")
+x=g.read()
+print(x)

@@ -1,0 +1,11 @@
+'''WAP to copy the content of one file into another file'''
+f=open("a1.txt",'r')
+s=f.read()
+f1=open("mca.txt",'w')
+f1.write(s)
+f1.close()
+f2=open("mca.txt",'r')
+s2=f2.read()
+f3=open("mca2.txt",'w')
+f3.write(s2)
+f3.close()

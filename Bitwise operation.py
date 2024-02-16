@@ -1,0 +1,9 @@
+a=8
+b=3
+c=a&b
+d=a|b
+e=~b
+f=a^b
+g=a<<b
+h=a>>b
+print(c,d,e,f,g,h)
